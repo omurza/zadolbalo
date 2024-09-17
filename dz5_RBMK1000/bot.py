@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-import sqlite3
+
 from app.handlers import router
 from config import TOKEN
 
