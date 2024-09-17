@@ -5,7 +5,7 @@ from aiogram.fsm.state import State, StatesGroup
 from app.BAZA import register_user, get_user_balance, transfer_money
 
 router = Router()
-
+# nvtchnjm
 class TransferState(StatesGroup):
     waiting_for_amount = State()
     waiting_for_receiver = State()
